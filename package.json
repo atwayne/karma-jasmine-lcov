@@ -1,13 +1,13 @@
 {
-  "name": "ut-sample",
+  "name": "karma-jasmine-lcov",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Wayne Wang",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sonar": "^2.1.5",
