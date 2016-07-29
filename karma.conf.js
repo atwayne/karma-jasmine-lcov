@@ -78,7 +78,8 @@ module.exports = function (config) {
 
     junitReporter: {
       outputDir: 'coverage/',
-      outputFile: 'testresults.xml'
+      outputFile: 'testresults.xml',
+      useBrowserName: false
     }
   });
 };
